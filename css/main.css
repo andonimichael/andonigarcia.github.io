@@ -195,6 +195,15 @@ footer nav, footer nav div{
 .blogPost p a:hover{
     text-decoration: underline;
 }
+.blogPost p code{
+    background: #272927;
+    border: 1px #821818 solid;
+    border-radius: 6px;
+    color: #00cc00;
+    font-size: 18px;
+    margin: 0;
+    padding: 2px 6px 2px 7px;;
+}
 .blogPost .videoEmbed{
     display: none;
     height: 315px;
@@ -367,7 +376,7 @@ footer nav, footer nav div{
     font-family: times, serif;
 }
 .psitesP code{
-    background: #000;
+    background: #272927;
     border: 1px #821818 solid;
     border-radius: 6px;
     color: #00cc00;

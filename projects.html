@@ -8,7 +8,7 @@
     <meta name="author" content="Andoni M. Garcia">
     <link rel="icon" href="favicon.ico">
 
-    <title>Andoni M. Garcia | Homepage</title>
+    <title>Andoni M. Garcia | Projects</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,17 +44,17 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a>Home</a>
+                        <li>
+                             <a href="index.html">Home</a>
                          </li>
                          <li>
                              <a href="blog.html">Blog</a>
                          </li>
-                         <li class="dropdown">
+                         <li class="dropdown active">
                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
                              <ul class="dropdown-menu pull-right" role="menu">
                                 <li>
-                                    <a href="projects.html">Projects</a>
+                                    <a>Projects</a>
                                 </li>
                                 <li class="divider"></li>
                                 <li>
@@ -75,15 +75,37 @@
           </div>
       </header>
       
-
-      <img src="img/myface.jpg" alt="This is a picture of me, Andoni Garcia" class='img-circle'>
-      <h1 class="indexSummary">
-          I am a junior at the University of Chicago. Enjoy my exploration
-          into Web Development and programming. I am a CS minor at a very
-          theoretical school, so this whole endeavor is self-taught.
+      <h1 class="projectSummary">
+          My Projects Page
       </h1>
+      <div class="projectDescription">
+          <p>
+              The drop-down menu should indicate the various projects
+              that I am working on or have worked on. The source code
+              for all of my projects can be found on
+              <a href="http://github.com/andonigarcia" target="_blank">github</a>.
+              This site will link you to their project pages so you can play around
+              with them and have the proper user-experience without looking at
+              (or compiling) the code itself.
+          </p>
+          <p>
+              Currently I am focusing on this here Web Development (see my blog to
+              track my progress). As soon as I finish learning Javascript/JQuery and
+              front-end development, I will try to put up a project page for my
+              Markov Babbler, and my corollary The Rap Generator, which is currently
+              on GitHub and written in C.
+          </p>
+      </div>
+      <div class="projectNav">
+          <h2>Projects</h2>
+          <ul>
+              <li><a class="projectNavLink">Markov Babbler</a></li>
+              <li><a class="projectNavLink">The Rap Generator</a></li>
+          </ul>
+      </div>
+      <div id="projectSpace"><p> </p></div>
       
-      <footer>
+      <footer id="projectFoot">
           <div id="nav">
             <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
               <div class="container-fluid">

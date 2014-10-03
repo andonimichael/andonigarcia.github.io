@@ -81,6 +81,62 @@
       
       <div class="blogItself">
           <div class="blogContent">
+              <div class="blogPost" id="ResponsiveDesign">
+                  <h2 class="blogPostTitle">Responsive Design</h2>
+                  <p class="blogPostMeta">3 October 2014</p>
+                  <p>
+                      Last time I ended my blog post talking about how frustrating it
+                      is to design a website and then have the layout be completely messed up
+                      everytime you shorten the screen width. The solution to this is
+                      a practice called <a href="http://en.wikipedia.org/wiki/Responsive_web_design" target="_blank">Responsive Design</a>.
+                  </p>
+                  <p>
+                      I guess I didn't do my homework well enough, because I found out
+                      about responsive design only after taking to <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>, 
+                      a very elegant and widely used framework and templating for Web Design.
+                      I know I was supposed to learn Javascript after CSS, but this bugged me
+                      so much, that I decided it needed to come first. I had been hearing about
+                      Bootstrap for a long time, but wanted to learn the basics first and then
+                      build upwards to frameworks (such a UChicago mindset).
+                  </p>
+                  <p>
+                      After reading through the <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+                      documentation and information, I finally realized what responsive mobile-first design
+                      is. The main idea is to design your website to be ideal on the smallest screen
+                      first. So mobile-device screen widths and smaller have a pleasant UX. Only after that,
+                      do you start to think about and design for larger screens. You use media queries such as
+                      <code>@media (min-width: 720px)</code> to specify how your CSS layout should appear
+                      for larger screens. But it should first and foremost be optimized for small screens.
+                      If you do want to display additional or different items on larger screens that don't
+                      appear on smaller screens, use <code>display: none</code> appropriately on those
+                      elements' CSS. Finally, make sure that your width's and lengths are all in relative terms.
+                      In stead of specifying a div's width to 250px, make it 15%. This will allow it to
+                      appropriately scale as screen widths are adjusted! Height isn't as big of a deal, but
+                      width is <strong>essential</strong>.
+                  </p>
+                  <p>
+                      Luckily, Bootstrap has responsive design embedded and intertwined into its
+                      language. A navbar automatically condenses and dropdowns respond accordingly.
+                      It makes your life so much easier. Bootsrap 3 was finally made mobile-first,
+                      so all of its classes and components that come with the library are enhanced for
+                      a nice responsive design. I'd ultimately like to next design a website that
+                      is responsive all on my own, but I'll need Javascript for the dropdowns and other
+                      things. Practically the only components of my site that are Bootstrap are the
+                      Navbar and Footer. But Bootstrap was a very very nice deviation from my learning
+                      path, because it finally allowed me to be extremely happy with how my website turned
+                      out and allowed me to have a nice and responsive website with little effort.
+                  </p>
+                  <p>
+                      I strongly encourage you all to go through and read the Bootstrap documentation
+                      thoroughly before using it. It will take one afternoon and after you will have an
+                      excellent grasp on the ease of using Bootstrap to <em>dramatically</em> enhance your
+                      website. It's a great learning tool to help fine-tune your CSS skills and you will
+                      really appreciate it. Just download the files and you'll be all set! No installation
+                      or other crazy downloads necessary. Literally just grab their CSS and JS files. Cheers.
+                      Next time, I'll be coming to you with some Javascript knowledge hopefully!
+                  </p>
+                  <p style='text-align:right'> -Andoni M. Garcia</p>
+              </div>
               <div class="blogPost" id="NextCameCSS">
                   <h2 class="blogPostTitle">Next Came CSS</h2>
                   <p class="blogPostMeta">2 October 2014</p>
@@ -302,8 +358,8 @@
                     <p style='text-align:right'> -Andoni M. Garcia</p>
               </div>
               <ul class="pager disabled">
-                  <li><a>Previous</a></li>
-                  <li><a>Next</a></li>
+                  <li><span>Previous</span></li>
+                  <li><span>Next</span></li>
               </ul>
           </div>
           <div class="blogNav">

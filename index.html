@@ -1,107 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="My Webpage">
-    <meta name="author" content="Andoni M. Garcia">
-    <link rel="icon" href="favicon.ico">
-
-    <title>Andoni M. Garcia | Homepage</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" href="css/main.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-      <header>
-          <div id="nav">
-          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-              <div class="container-fluid">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Andoni M. Garcia</title>
+        <meta name="description" content="A breif introduction to Andoni M. Garcia and his various web-development projects.">
+        <meta name="keywords" content="Andoni, Garcia, Andoni Garcia, Andoni M. Garcia, andoni, garcia, andoni garcia, andoni m. garcia, andoni michael,
+              andoni garcia, Andoni Garcia, andoni michael, Andoni Michael, Michael, web development, github, uchicago, UChicago, university of chicago,
+              University of Chicago, projects, web design, computer science">
+        <meta name="author" content="Andoni M. Garcia">
+        
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Andoni M. Garcia</a>
-                  </div>
-
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <a class="navbar-brand" href="#">Andoni M. Garcia</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a>Home</a>
-                         </li>
-                         <li>
-                             <a href="blog.html">Blog</a>
-                         </li>
-                         <li class="dropdown">
-                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
-                             <ul class="dropdown-menu pull-right" role="menu">
-                                <li>
-                                    <a href="projects.html">Projects</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li>
-                                    <a>Project List To Come</a>
-                                </li>
-                             </ul>
-                         </li>
-                         <li>
-                             <a href="http://andoni.strikingly.com" target="_blank">Resume</a>
-                         </li>
-                         <li>
-                             <a href="contact.html">Contact Me</a>
-                         </li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="projects.html">My Projects</a></li>
+                        <li><a href="http://www.andonigarcia.com" target="_blank">My Resume</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
                     </ul>
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
-          </div>
-      </header>
-      
-
-      <img src="img/myface.jpg" alt="This is a picture of me, Andoni Garcia" class='img-circle'>
-      <h1 class="indexSummary">
-          I am a junior at the University of Chicago. Enjoy my exploration
-          into Web Development and programming. I am a CS minor at a very
-          theoretical school, so this whole endeavor is self-taught.
-      </h1>
-      
-      <footer>
-          <div id="nav">
-            <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-              <div class="container-fluid">
-                 <p>An Andoni M. Garcia Production | Using Twitter Bootstrap | 30 September 2014</p>
-              </div>
-            </nav>
-          </div>
-      </footer>
-
+                </div>
+            </div>
+        </nav>
         
+        <div class="container-fluid boxx preserve3d" id="homeContent">
+            <img src="img/andoni.jpg" class="img-circle img-responsive centered" alt="Andoni M. Garcia" />
+            <h1 class="title centered">
+                <span class="glyphicon glyphicon-hand-right"></span>
+                <a href="about.html">Welcome</a>
+                <span class="glyphicon glyphicon-hand-left"></span>
+            </h1>
+        </div>
         
-        
-    
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script>
+            $(".title").hover(function(){
+                $("#homeContent .glyphicon").toggle();
+                $(".title, .title a").css("color","#991B0B");
+            }, function(){
+                $("#homeContent .glyphicon").toggle();
+                $(".title, .title a").css("color","#444");
+            });
+        </script>
+    </body>
 </html>

@@ -1,0 +1,434 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 30, 2014, 11:18:01 AM
+    Author     : Andoni
+*/
+.divider{
+    border-top: 1px solid black;
+}
+
+body{
+    background: #999;
+    color: #9d0606;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.img-circle{
+    clear: both;
+    display: block;
+    height: 25%;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 25%;
+}
+.indexSummary{
+    font-family: impact, serif;
+    font-size: 250%;
+    text-align: center;
+    padding: 0 10%;
+}
+
+footer{
+    clear: both;
+    color: #999;
+    margin: 0;
+    padding: 0;
+}
+footer .navbar{
+    min-height: 20px;
+    padding: 0;
+}
+footer nav, footer nav div{
+    margin: 0;
+    padding: 0;
+}
+#nav p{
+    text-align: center;
+}
+
+.blogSummary, .projectSummary, .contactSummary{
+    clear: both;
+    font-family: impact, serif;
+    font-size: 250%;
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px 10% 40px 10%;
+    margin: 0;
+}
+
+
+.projectDescription{
+    background: #9ea7af;
+    border-radius: 10px;
+    color: #c93131;
+    float: left;
+    font-family: times, serif;
+    font-size: 22px;
+    margin: 0 1% 0 3.5%;
+    padding: 2% 1%;
+    width: 92%;
+}
+.projectDescription a, .projectDescription a:visited, .projectDescription a:active{
+    color: #9d0606;
+    text-decoration: none;
+}
+.projectDescription a:hover{
+    color: #9d0606;
+    text-decoration: underline;
+}
+.projectNav{
+    background: #9ea7af;
+    border-radius: 10px;
+    display: none;
+    color: #a02929;
+    float: right;
+    font-family: times, serif;
+    margin: 0 5% 0 0;
+    padding: 2% 1%;
+    width: 15%;
+    height: 300px;
+}
+.projectNav h2{
+    color: #9d0606;
+    margin: 0 5px 10px 5px;
+    padding: 0;
+    text-decoration: underline;
+}
+.projectNav ul{
+    list-style: none;
+    margin: 0 15px;
+    padding: 0;
+}
+.projectNav ul li{
+    margin: 3px 0;
+}
+.projectNavLink, .projectNavLink:active, .projectNavLink:visited{
+    color: #c93131;
+    text-decoration: none;
+}
+.projectNavLink:hover{
+    color: #c93131;
+    text-decoration: underline;
+}
+@media (min-width: 760px){
+    .projectDescription{
+        width: 70%;
+    }
+    .projectNav{
+        display: inherit;
+        width: 15%;
+    }
+}
+
+.blogSummary{
+    color: #821818
+}
+.blogName{
+    color: #9d0606;
+}
+.blogTitle{
+    color: #a02929;
+}
+.blogContent{
+    background: #9ea7af;
+    border-radius: 10px;
+    color: #a02929;
+    float: left;
+    font-family: times, serif;
+    font-size: 22px;
+    margin: 0 1% 0 3.5%;
+    padding: 15px 2.5%;
+    width: 92%;
+}
+.blogNav{
+    background: #9ea7af;
+    border-radius: 10px;
+    display: none;
+    color: #a02929;
+    float: right;
+    font-family: times, serif;
+    margin: 0 3% 0 0;
+    padding: 15px 2%;
+}
+@media (min-width: 924px){
+    .blogContent{
+        width: 70%;
+    }
+    .blogNav{
+        display: inherit;
+        width: 20%;
+    }
+}
+.blogPost{
+    border-bottom: 1px solid black;
+}
+.blogPost h2{
+    color: #9d0606;
+    font-family: impact, serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 1px;
+}
+.blogPost p{
+    clear: both;
+    color: #a02929;
+    font-family: times, serif;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.blogPost p.blogPostMeta{
+    color: #c93131;
+    font-family: serif;
+    font-size: 16px;
+    margin: 0 5px 5px 5px;
+    padding: 0;
+}
+.blogPost p a, .blogPost p a:active, .blogPost p a:visited{
+    color: #821818;
+    text-decoration: none;
+}
+.blogPost p a:hover{
+    text-decoration: underline;
+}
+.blogPost p code{
+    background: #272927;
+    border: 1px #821818 solid;
+    border-radius: 6px;
+    color: #00cc00;
+    font-size: 18px;
+    margin: 0;
+    padding: 2px 6px 2px 7px;;
+}
+.blogPost .videoEmbed{
+    display: none;
+    height: 315px;
+    margin: 5px auto;
+    width: 560px;
+}
+.blogPost .videoAlttext{
+    text-align: center;
+}
+.blogPost .leftProgress, .blogPost .rightProgress{
+    color: #a02929;
+    font-family: impact, serif;
+    font-size: 18px;
+    list-style: none;
+    margin: 4px 0;
+    padding: 2px 0;
+    text-align: center;
+}
+.blogPost .progressHeader ul{
+    color: #c93131;
+    font-family: times, serif;
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 2px 0;
+    text-align: center;
+}
+@media (min-width: 655px){
+    .blogPost .videoEmbed{
+        display: inherit;
+    }
+    .blogPost .videoAlttext{
+        display: none;
+    }
+    .blogPost .leftProgress{
+        float: left;
+        margin: 2% 2% 2% 8%;
+    }
+    .blogPost .rightProgress{
+        float: right;
+        margin: 2% 8% 2% 2%;
+    }
+}
+@media (min-width: 1160px){
+    .blogPost .leftProgress{
+        margin: 2% 2% 2% 15%;
+    }
+    .blogPost .rightProgress{
+        margin: 2% 15% 2% 2%;
+    }
+}
+
+.blogNav h3{
+    color: #9d0606;
+    font-family: impact, serif;
+    font-size: 26px;
+    margin: 8px 0;
+}
+.blogNav p{
+    color: #a02929;
+    font-family: times, serif;
+}
+.blogNav p a, .blogNav p a:active, .blogNav p a:visited{
+    color: #821818;
+    text-decoration: none;
+}
+.blogNav p a:hover{
+    text-decoration: underline;
+}
+.blogNavAboutName{
+    float: right;
+}
+.blogNav h4{
+    color: #9d0606;
+    font-family: impact, serif;
+    font-size: 24px;
+    margin: 25px 0 7px 0;
+}
+.blogNav ul{
+    padding: 0;
+}
+.blogNav ul li{
+    padding: 0;
+    margin: 5px 0;
+}
+.blogNav ul li a, .blogNav ul li a:active, .blogNav ul li a:visited{
+    color: #821818;
+    text-decoration: none;
+}
+.blogNav ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.contactDiv{
+    color: #9d0606;
+    background: #9ea7af;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 2%;
+    width: auto;
+}
+.contactDiv h2{
+    color: #a02929;
+    text-decoration: underline;
+}
+.contactDiv h3{
+    color: #c93131;
+}
+.contactDiv a, .contactDiv a:active, .contactDiv a:visited{
+    color: #c93131;
+    text-decoration: none;
+}
+.contactDiv a:hover{
+    text-decoration: underline;
+}
+.contactLeft{
+    clear: both;
+    margin: 2% auto;
+    width: 350px;
+}
+.contactRight{
+    clear: both;
+    margin: 2% auto;
+    width: 350px;
+}
+@media (min-width: 1078px){
+    .contactLeft{
+        float: left;
+        clear: none;
+        margin: 2% 1% 2% 16%;
+    }
+    .contactRight{
+        float: right;
+        clear: none;
+        margin: 2% 16% 2% 1%;
+    }
+}
+
+
+.archiveTitle{
+    color: #821818;
+    font-family: impact, serif;
+    text-decoration: underline;
+}
+.archiveList{
+    color: #a02929;
+    font-size: 20px;
+    margin: 10px 35px;
+    padding: 0;
+}
+.archiveListItem{
+    padding: 5px 0;
+}
+.archiveListItem a, .archiveListItem a:active, .archiveListItem:visited{
+    color: #a02929;
+    text-decoration: none;
+}
+.archiveListItem a:hover{
+    text-decoration: underline;
+}
+
+.psitesP{
+    font-size: 21px;
+    font-family: times, serif;
+}
+.psitesP code{
+    background: #272927;
+    border: 1px #821818 solid;
+    border-radius: 6px;
+    color: #00cc00;
+    font-size: 18px;
+    margin: 0;
+    padding: 2px 6px 2px 5px;;
+}
+.psitesList{
+    color: #9d0606;
+    font-size: 18px;
+    font-family: georgia, serif;
+    margin: 5px 35px;
+    padding: 0;
+}
+.psiteSite{
+    padding: 2px 0;
+}
+.psiteSite a, .psiteSite a:active, .psiteSite a:visited{
+    color: #9d0606;
+    text-decoration: none;
+}
+.psiteSite a:hover{
+    text-decoration: underline;
+}
+
+.sitemapUl{
+    color: #9d0606;
+    font-size: 18px;
+    font-family: georgia, serif;
+    margin: 5px 35px;
+    padding: 0px;
+}
+.sitemapLi{
+    padding: 2px 0;
+}
+.sitemapUl2{
+    list-style: none;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 0;
+}
+.sitemapUl2 ul{
+    font-weight: normal;
+    margin: 0px 30px;
+}
+.sitemapUl2 ul li{
+    padding: 2px 0;
+}
+.sitemapUl a, .sitemapUl a:active, .sitemapUl a:visited{
+    color: #821818;
+    text-decoration: none;
+}
+.sitemapUl a:hover{
+    text-decoration: underline;
+}
